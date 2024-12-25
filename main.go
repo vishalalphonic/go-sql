@@ -33,8 +33,7 @@ func main() {
 
 		return c.JSON(healthcheck)
 	})
-	
+
 	fmt.Println("Server is running on port 3000", app.Listen(":3000"))
 
 }
-
